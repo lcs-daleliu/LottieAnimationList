@@ -13,6 +13,10 @@
 		3BA53E7C2B67E40F00B46523 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA53E7B2B67E40F00B46523 /* AnimationsListView.swift */; };
 		3BA53E7F2B67E56100B46523 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3BA53E7E2B67E56100B46523 /* Lottie */; };
 		3BA53E812B67E5AE00B46523 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA53E802B67E5AE00B46523 /* LottieView.swift */; };
+		3BA53E842B67E67700B46523 /* Animation - 1706535625045.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BA53E832B67E67700B46523 /* Animation - 1706535625045.json */; };
+		3BA53E862B67E71D00B46523 /* Animation - 1706536799287.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BA53E852B67E71D00B46523 /* Animation - 1706536799287.json */; };
+		3BA53E882B67E75E00B46523 /* Animation - 1706536893863.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BA53E872B67E75E00B46523 /* Animation - 1706536893863.json */; };
+		3BA53E8A2B67E79800B46523 /* Animation - 1706536957764.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BA53E892B67E79800B46523 /* Animation - 1706536957764.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		3BA53E712B67E39A00B46523 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BA53E7B2B67E40F00B46523 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		3BA53E802B67E5AE00B46523 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		3BA53E832B67E67700B46523 /* Animation - 1706535625045.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706535625045.json"; sourceTree = "<group>"; };
+		3BA53E852B67E71D00B46523 /* Animation - 1706536799287.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706536799287.json"; sourceTree = "<group>"; };
+		3BA53E872B67E75E00B46523 /* Animation - 1706536893863.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706536893863.json"; sourceTree = "<group>"; };
+		3BA53E892B67E79800B46523 /* Animation - 1706536957764.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706536957764.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				3BA53E6A2B67E39800B46523 /* LottieAnimationListApp.swift */,
+				3BA53E822B67E64400B46523 /* Animations */,
+				3BA53E832B67E67700B46523 /* Animation - 1706535625045.json */,
+				3BA53E852B67E71D00B46523 /* Animation - 1706536799287.json */,
+				3BA53E872B67E75E00B46523 /* Animation - 1706536893863.json */,
+				3BA53E892B67E79800B46523 /* Animation - 1706536957764.json */,
 				3BA53E782B67E3D100B46523 /* Model */,
 				3BA53E7A2B67E3E500B46523 /* Views */,
 				3BA53E6E2B67E39A00B46523 /* Assets.xcassets */,
@@ -86,6 +99,13 @@
 				3BA53E802B67E5AE00B46523 /* LottieView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3BA53E822B67E64400B46523 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +172,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA53E842B67E67700B46523 /* Animation - 1706535625045.json in Resources */,
+				3BA53E8A2B67E79800B46523 /* Animation - 1706536957764.json in Resources */,
+				3BA53E882B67E75E00B46523 /* Animation - 1706536893863.json in Resources */,
+				3BA53E862B67E71D00B46523 /* Animation - 1706536799287.json in Resources */,
 				3BA53E722B67E39A00B46523 /* Preview Assets.xcassets in Resources */,
 				3BA53E6F2B67E39A00B46523 /* Assets.xcassets in Resources */,
 			);
